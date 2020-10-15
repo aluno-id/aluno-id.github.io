@@ -276,7 +276,7 @@ input.input100 {
 [ L-Text >= 26 ]*/
 .l1-txt1 {
   font-family: Montserrat-Black;
-  font-size: 50px;
+  font-size: 40px;
   color: #fff;
   line-height: 1.2;
   text-transform: uppercase;
@@ -284,18 +284,17 @@ input.input100 {
 
 .l1-txt2 {
   font-family: Montserrat-Light;
-  font-size: 30px;
+  font-size: 24px;
   color: #fff;
   line-height: 1.2;
 }
 
 .l1-txt3 {
   font-family: Montserrat-Bold;
-  font-size: 36px;
+  font-size: 24px;
   color: #241D1D;
   line-height: 1;
 }
-
 
 /*==================================================================
    SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
@@ -338,12 +337,13 @@ input.input100 {
   max-width: 285px;
 }
 
-
 /*//////////////////////////////////////////////////////////////////
 [ Height ]*/
-
-
-
+#responsive-image {
+  width: 60%;
+  height: auto;
+  margin-bottom: 40px;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ Background ]*/
@@ -358,7 +358,6 @@ input.input100 {
   background: linear-gradient(-45deg, #14B0BA, #009EE1, #009EE1);
 }
 
-
 /*//////////////////////////////////////////////////////////////////
 [ Border ]*/
 .bor1 {
@@ -368,7 +367,6 @@ input.input100 {
 .bor2 {
   border-radius: 5px;
 }
-
 
 /*==================================================================
    WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE  
@@ -383,7 +381,6 @@ input.input100 {
   right: 5px;
 }
 
-
 /*==================================================================
  HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW 
 ==================================================================*/
@@ -391,7 +388,6 @@ input.input100 {
 .placeholder0:-moz-placeholder { color: #241D1D;}
 .placeholder0::-moz-placeholder { color: #241D1D;}
 .placeholder0:-ms-input-placeholder { color: #241D1D;}
-
 
 /*---------------------------------------------*/
 .how-countdown {
@@ -458,16 +454,12 @@ input.input100 {
   color: #fff;
 }
 
-/*//////////////////////////////////////////////////////////////////
-[ Pseudo ]*/
-
 /*------------------------------------------------------------------
 [ Focus ]*/
 .focus-in0:focus::-webkit-input-placeholder { color:transparent; }
 .focus-in0:focus:-moz-placeholder { color:transparent; }
 .focus-in0:focus::-moz-placeholder { color:transparent; }
 .focus-in0:focus:-ms-input-placeholder { color:transparent; }
-
 
 /*------------------------------------------------------------------
 [ Hover ]*/
@@ -476,16 +468,9 @@ input.input100 {
 
 /*---------------------------------------------*/
 
-
-
-
-
-
-
 /*==================================================================
   RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE
 ==================================================================*/
-
 
 /*//////////////////////////////////////////////////////////////////
 [ XL ]*/
@@ -505,13 +490,10 @@ input.input100 {
   .p-r-0-xl {padding-right: 0;}
   .p-l-15-xl {padding-left: 15px;}
   .p-r-15-xl {padding-right: 15px;}
-
   .w-full-xl {width: 100%;}
 
   /*---------------------------------------------*/
-
 }
-
 
 /*//////////////////////////////////////////////////////////////////
 [ LG ]*/
@@ -531,14 +513,10 @@ input.input100 {
   .p-r-0-lg{padding-right: 0;}
   .p-l-15-lg {padding-left: 15px;}
   .p-r-15-lg {padding-right: 15px;}
-
   .w-full-lg {width: 100%;}
 
   /*---------------------------------------------*/
-
-
 }
-
 
 /*//////////////////////////////////////////////////////////////////
 [ MD ]*/
@@ -558,12 +536,10 @@ input.input100 {
   .p-r-0-md{padding-right: 0;}
   .p-l-15-md {padding-left: 15px;}
   .p-r-15-md {padding-right: 15px;}
-
   .w-full-md {width: 100%;}
+
   /*---------------------------------------------*/
-
 }
-
 
 /*//////////////////////////////////////////////////////////////////
 [ SM ]*/
@@ -583,16 +559,13 @@ input.input100 {
   .p-r-0-sm{padding-right: 0;}
   .p-l-15-sm {padding-left: 15px;}
   .p-r-15-sm {padding-right: 15px;}
-
   .w-full-sm {width: 100%;}
 
   /*---------------------------------------------*/
   .respon1 {
     padding-top: 35px;
-  }
-  
+  }  
 }
-
 
 /*//////////////////////////////////////////////////////////////////
 [ SSM ]*/
@@ -612,8 +585,7 @@ input.input100 {
   .p-r-0-ssm{padding-right: 0;}
   .p-l-15-ssm {padding-left: 15px;}
   .p-r-15-ssm {padding-right: 15px;}
-
   .w-full-ssm {width: 100%;}
-  /*---------------------------------------------*/
 
+  /*---------------------------------------------*/
 }
